@@ -22,11 +22,13 @@ This is an api to serve up information needed by an elevator application.  Four 
 		Example:
 		GET http://localhost:8080/elevatorfloors/next
 
+To run the app, goto directory with Elevator.sln in it, and issue this command:
+
+	dotnet run ./Elevator.sln
+
 See http://localhost:8080/elevatorfloors for the service base.
 
 Swagger Docs:
 http://localhost:8080/swagger/index.html
 
-To run the app, goto directory with Elevator.sln in it, and issue this command:
 
-	dotnet run ./Elevator.sln
